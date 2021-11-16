@@ -1,0 +1,103 @@
+/* FONT MAJOR MONO */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+/* FONT POPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+/* RESETANDO CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: var(--color3);
+    /* background: url("paul-volkmer-fX-qWsXl5x8-unsplash.jpg") repeat;
+    background-size: cover;
+     */
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIM RESET */
+
+/* VARIAVEIS DE COR */
+:root{
+    --color1: #0bd3d3;
+    --color2: #df30c1;
+    --color3: rgb(19, 19, 19);
+    --color4: #fff;
+    --color5: #d0d0d0;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--color1);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid var(--color1);
+    background: url("paul-volkmer-fX-qWsXl5x8-unsplash.jpg") repeat;
+    background-size: cover;
+}
+.logo{
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    color: var(--color1);
+    font-size: 2rem;
+    letter-spacing: .4rem;
+}
+.logo a{
+    text-decoration: none;
+    color: var(--color1);
+}
+.nav_item{
+    color: var(--color1);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .2rem;
+    margin-left: 1.5rem;
+}
+#active{
+    color: var(--color2) !important;
+}

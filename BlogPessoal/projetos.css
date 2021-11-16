@@ -1,0 +1,306 @@
+/* FONT MAJOR MONO */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+/* FONT POPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+/* RESETANDO CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, b, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: var(--color3);
+    /* background: url("paul-volkmer-fX-qWsXl5x8-unsplash.jpg") repeat;
+    background-size: cover; */
+    
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* FIM RESET */
+
+body::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: var(--color3);        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: var(--color1);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */  /* creates padding around scroll thumb */
+}
+
+/* VARIAVEIS DE COR */
+:root{
+    --color1: #0bd3d3;
+    --color2: #df30c1;
+    --color3: rgb(19, 19, 19);
+    --color4: #fff;
+    --color5: #d0d0d0;
+}
+
+/* NAV BAR */
+ul li{
+    display: inline-block;
+    padding: 0.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--color1);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid var(--color1);
+    background: url("paul-volkmer-fX-qWsXl5x8-unsplash.jpg") repeat;
+    background-size: cover;
+}
+.logo{
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    color: var(--color1);
+    font-size: 2rem;
+    letter-spacing: .4rem;
+}
+.logo a{
+    text-decoration: none;
+    color: var(--color1);
+}
+.nav_item{
+    color: var(--color1);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .2rem;
+    margin-left: 1.5rem;
+}
+#active{
+    color: var(--color2) !important;
+}
+
+/* TEXTO PRINCIPAL */
+/* DIW */
+.DIW{
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 30px;
+    align-self: center;
+    padding-bottom: 30px;
+    
+}
+
+.DIW h2{
+    color:var(--color2);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.DIW p{
+    color: var(--color4);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    line-height: 33px;
+    letter-spacing: .1rem;
+}
+
+.tituloDIW h2::before{
+    content: "/:";
+    color: var(--color1);
+}
+
+.textoDIW{
+    display: flex;
+    padding: 70px;
+    /* max-width: 900px; */
+}
+
+.textoDIW button{
+    height: 3rem;
+    width: 10rem;
+    color: var(--color4);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    margin-top: 10px;
+}
+.textoDIW a{
+    text-decoration: none;
+    color: var(--color3);
+}
+
+.codepenBOX{
+    margin-bottom: 30px;
+    margin-top: -40px;
+}
+/* AEDS */
+
+.tituloAEDS h2::before{
+    content: "/:";
+    color: var(--color1);
+}
+.tituloAEDS h2::after{
+    content: ":";
+    color: var(--color1);
+}
+
+.textoAEDS{
+    display: flex;
+    padding: 70px;
+}
+
+.textoAEDS button{
+    height: 3rem;
+    width: 13rem;
+    color: var(--color4);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    margin-top: 10px;
+}
+.textoAEDS a{
+    text-decoration: none;
+    color: var(--color3);
+}
+
+.textoAEDS img{
+    max-width: 400px;
+    margin-right: 100px;
+    border: 1px solid var(--color2);
+}
+
+/* LIP */
+
+.tituloLIP h2::after{
+    content: ":\\";
+    color: var(--color1);
+}
+.tituloLIP h2::before{
+    content: "/:";
+    color: var(--color1);
+}
+
+.textoLIP{
+    padding: 70px;
+}
+
+.textoLIP iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.textoLIP a{
+    text-decoration: none;
+    color: var(--color5);
+}
+
+/* iframe scrtach */
+
+#textoScratch::before{
+    content: "<-";
+    font-weight: bolder;
+    color: #df30c1;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+}
+
+#textoScratch::after{
+    content: "<-";
+    font-weight: bolder;
+    color: #df30c1;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+}
+
+#textoScratch{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.arduino{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#textoArduino::before{
+    content: "->";
+    font-weight: bolder;
+    color: #df30c1;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+}
+#textoArduino::after{
+    content: "->";
+    font-weight: bolder;
+    color: #df30c1;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 2rem;
+    
+}
+
+.roteiro button{
+    height: 3rem;
+    width: 14rem;
+    color: var(--color4);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    margin-top: 10px;
+}   
+
+.roteiro a{
+    text-decoration: none;
+    color: var(--color3);
+}
