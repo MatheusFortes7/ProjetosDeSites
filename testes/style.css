@@ -89,7 +89,99 @@
     }
 }
 
-@media (min-width: 426px) and (max-width: 768){
+@media (min-width: 426px) and (max-width: 768px){
+    
+    header{
+        position: fixed;
+        width: 425px;
+    }
+    header{
+        position: fixed;
+        width: 768px;
+    }
+    
+    .inicio{
+        max-width: 768px;
+        height: 800px;
+        margin: 0 auto;
+        color: white;
+        padding: 20px;
+        padding-top: 300px;
+    }
+    .inicio p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        line-height: 130%;
+        text-align: center;
+    }
+    .inicio span{
+        color: rgba(0, 136, 169,0.8);
+        font-weight: bold;
+    }
+    .inicio p:last-child{
+        font-size: 1rem;
+        font-family: "Montserrat", sans-serif;;
+    }
 
+    .PortalDeFilmes{
+        max-width: 768px;
+        height: 700px;
+        margin: 0 auto;
+        margin: 20px;
+        border-radius: 30px;
+        color: white;
+        padding: 20px;
+        background-color: #24252A;
+    }
+
+    .PortalDeFilmes p {
+        background-color: #24252A;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(167, 167, 167);
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .blog {
+        max-width: 768px;
+        height: 700px;
+        margin: 0 auto;
+        margin: 20px;
+        border-radius: 30px;
+        color: white;
+        padding: 20px;
+        background-color: #24252A;
+    }
+
+    .blog p {
+        background-color: #24252A;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(167, 167, 167);
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .fim{
+        display: flex;
+        width: 768px;
+        justify-content: center;
+    }
+
+    .fim p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .botaoFinal{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contatoMobile button{
+        background-color: rgba(0, 136, 169,0.8);
+    }
 }
 
