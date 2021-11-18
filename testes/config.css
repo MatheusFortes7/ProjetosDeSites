@@ -61,7 +61,13 @@ button:hover {
 
 @media (max-width: 320px){
     li, a, button{
-        font-size: 12px;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 321px) and (max-width:424px){
+    li, a, button{
+        font-size: 0.8em;
     }
 }
 
