@@ -3,6 +3,11 @@
 /* FONT OSWALD */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+/* FONT PÁTRICK */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* FONT NUNITO */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +27,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
+    padding: 2px 10%;
+    
 }
 
 .logo {
@@ -63,17 +69,30 @@ button:hover {
     li, a, button{
         font-size: 0.8em;
     }
-}
-
-@media (min-width: 321px) and (max-width:424px){
-    li, a, button{
-        font-size: 0.8em;
+    header img{
+        width: 20%;
     }
 }
 
-@media (max-width: 425px){
+@media (min-width: 321px) and (max-width:425px){
+    li, a, button{
+        font-size: 0.9em;
+    }
+    header img{
+        width: 20%;
+    }
+}
+
+@media (max-width: 426px){
     .cta {
         display: none;
+    }
+    
+}
+
+@media (min-width: 426px){
+    header img{
+        width: 5%;
     }
 }
 
