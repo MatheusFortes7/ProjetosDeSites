@@ -10,4 +10,5 @@ Site feito para um trabalho da faculdade.
 https://omeuportaldefilmes.herokuapp.com/
 
 <h3>Blog 1º periodo faculdade</h3>
+blog feito para descrever como foi meu primeiro período na faculdade de Cienca da Computação
 https://matheusfortes7.github.io/BlogPessoal/
