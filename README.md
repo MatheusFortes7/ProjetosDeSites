@@ -1,7 +1,7 @@
 # ProjetosDeSites
 Sites Feitos para faculdade ou somente por estudo
 
-<h3># Site do Jogo</h3>
+# Site do Jogo
 Site feito com bootstrap para um trabalho na faculdade.
 https://matheusfortes7.github.io/SiteLIP/
 
