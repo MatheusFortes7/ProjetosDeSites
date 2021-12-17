@@ -3,7 +3,7 @@ Sites Feitos para faculdade ou somente por estudo
 
 ## Site do Jogo
 Site feito com bootstrap para um trabalho na faculdade.
-https://matheusfortes7.github.io/SiteLIP/
+Link: https://matheusfortes7.github.io/SiteLIP/
 
 ## Portal de Filmes
 Site feito para um trabalho da faculdade.
