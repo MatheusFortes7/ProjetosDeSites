@@ -14,5 +14,5 @@ blog feito para descrever como foi meu primeiro período na faculdade de Ciênci
 Link: https://matheusfortes7.github.io/BlogPessoal/
 
 ## Meu pórtifolio
-Portifólio feito para utilização em currículos.
+Portifólio feito para utilização em currículos. <br>
 Link:
