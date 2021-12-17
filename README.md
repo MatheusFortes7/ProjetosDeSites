@@ -10,9 +10,9 @@ Site feito para um trabalho da faculdade. <br>
 Link: https://omeuportaldefilmes.herokuapp.com/
 
 ## Blog 1º periodo faculdade
-blog feito para descrever como foi meu primeiro período na faculdade de Cienca da Computação <br>
+blog feito para descrever como foi meu primeiro período na faculdade de Ciência da Computação. <br>
 Link: https://matheusfortes7.github.io/BlogPessoal/
 
 ## Meu pórtifolio
-Portifólio feito para utilização em currículos
+Portifólio feito para utilização em currículos.
 link:
