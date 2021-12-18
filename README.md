@@ -16,7 +16,7 @@ Link: https://matheusfortes7.github.io/BlogPessoal/
 
 ## Meu pórtifolio
 Portifólio feito para utilização em currículos. <br>
-Link:
+Link: não terminado
 
 EN-US:
 
@@ -37,4 +37,5 @@ Link: https://matheusfortes7.github.io/BlogPessoal/
 
 ## My portfolio
 Portfolio made for use in resumes. <br>
+Link: in production
 
