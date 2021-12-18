@@ -1,5 +1,5 @@
 # ProjetosDeSites
-:brazil:Sites Feitos para faculdade ou somente por estudo
+Sites Feitos para faculdade ou somente por estudo
 
 ## Site do Jogo
 Site feito com bootstrap para um trabalho na faculdade. <br>
