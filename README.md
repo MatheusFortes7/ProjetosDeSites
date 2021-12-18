@@ -1,5 +1,5 @@
 PT-BR:
-# ProjetosDeSites
+# Projetos De Sites
 Sites Feitos para faculdade ou somente por estudo
 
 ## Site do Jogo
@@ -19,3 +19,10 @@ Portifólio feito para utilização em currículos. <br>
 Link:
 
 EN-US:
+
+# Website Projects
+Sites Made for College or Study Only
+
+## Game Website
+Website done with bootstrap for a college work. <br>
+Link: https://matheusfortes7.github.io/SiteLIP/
