@@ -1,4 +1,4 @@
-PT-BR:
+# PT-BR🟢🟡🔵:
 # Projetos De Sites
 Sites Feitos para faculdade ou somente por estudo
 
@@ -18,7 +18,7 @@ Link: https://matheusfortes7.github.io/BlogPessoal/
 Portifólio feito para utilização em currículos. <br>
 Link: não terminado
 
-EN-US:
+# EN-US🔵🔴:
 
 # Website Projects
 Sites Made for College or Study Only
