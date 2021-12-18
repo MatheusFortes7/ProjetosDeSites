@@ -32,3 +32,8 @@ Website done for a college work. <br>
 Link: https://omeuportaldefilmes.herokuapp.com/
 
 ## Blog of my 1st period of college
+Blog made to describe my first term at the college of Computer Science. <br>
+Link: https://matheusfortes7.github.io/BlogPessoal/
+
+
+
