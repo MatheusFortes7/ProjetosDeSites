@@ -30,3 +30,5 @@ Link: https://matheusfortes7.github.io/SiteLIP/
 ## Movie Website
 Website done for a college work. <br>
 Link: https://omeuportaldefilmes.herokuapp.com/
+
+## Blog of my 1st period of college
