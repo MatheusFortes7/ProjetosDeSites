@@ -1,4 +1,6 @@
-# PT-BR🟢🟡🔵:
+The read.me in english is down below this arquive
+
+# PT-BR:
 # Projetos De Sites
 Sites Feitos para faculdade ou somente por estudo
 
@@ -18,7 +20,7 @@ Link: https://matheusfortes7.github.io/BlogPessoal/
 Portifólio feito para utilização em currículos. <br>
 Link: não terminado
 <br><br>
-# EN-US🔵🔴:
+# EN-US:
 
 # Website Projects
 Sites Made for College or Study Only
