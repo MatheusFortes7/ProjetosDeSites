@@ -1,4 +1,4 @@
-The read.me in english is down below this arquive
+The read.me in english is below in this file
 
 # PT-BR:
 # Projetos De Sites
