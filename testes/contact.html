@@ -27,6 +27,17 @@
         <div class="contato">
             <p>Legal saber que você deseja falar comigo, me informe seu email e sua mensagem. Assim que terminar de escrever, so clicar no botão e seu email será enviado</p>
         </div>
+        <section class="form-contato">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="text" name="name"  required placeholder="Seu Nome">
+                <input type="text" name="email" required  placeholder="Seu Email" />
+                <textarea name="message" required></textarea>
+                <input type="hidden" name="accessKey" value="7b86b289-1653-4e1c-a625-a3b7137d71ef">
+                <input type="hidden" name="redirectTo" value="contact.html">
+                <input type="submit" value="Enviar" class="form-buttom">
+            </form>
+          </section>
+          <p class="footer"> Assim que o formulário for enviado a página sera recarregada, não se preocupe não aconteceu erro algum!</p>
     </main>
 
     <footer>
