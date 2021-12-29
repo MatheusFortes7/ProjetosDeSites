@@ -28,9 +28,15 @@
 
 .form-contato form input{
     display: block;
+    padding: 5px;
     width: 100%;
     margin-bottom: 15px;
     outline: none;
+    background: white;
+}
+
+.form-contato form input:last-child{
+    background: #0088a9;
 }
 
 .form-contato form textarea{
@@ -38,6 +44,7 @@
     height: 100px;
     margin-bottom: 15px;
     outline: none;
+    background: white;
 }
 
 .form-buttom {
