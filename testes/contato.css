@@ -72,10 +72,27 @@
     text-align: center;
 }
 
-@media (max-width: 425px){
+@media (max-width: 426px){
     header{
         position: fixed;
         width: 100%;
+    }
+    header img {
+        max-width: 20%;
+    }
+    .contato p{
+        font-size: 1.5rem;
+    }
+    .contato{
+        padding-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    .formEmail{
+        margin-bottom: 20px;
+    }
+    .formEmail button{
+        max-width: 100px;
     }
 }
 
@@ -83,5 +100,26 @@
     header{
         position: fixed;
         width: 100%;
+    }
+    
+    .contato p{
+        font-size: 1.5rem;
+    }
+    .contato{
+        padding-top: 150px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    
+    .contato p{
+        font-size: 1.5rem;
+    }
+    .contato{
+        padding-top: 150px;
     }
 }

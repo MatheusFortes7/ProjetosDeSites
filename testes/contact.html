@@ -25,19 +25,23 @@
 
     <main>
         <div class="contato">
-            <p>Legal saber que você deseja falar comigo, me informe seu email e sua mensagem. Assim que terminar de escrever, so clicar no botão e seu email será enviado</p>
+            <p>Legal saber que você deseja falar comigo, me informe seu email e sua mensagem. Assim que terminar de escrever, so clicar no botão e seu email será enviado.</p>
         </div>
-        <section class="form-contato">
-            <form action="https://api.staticforms.xyz/submit" method="post">
-                <input type="text" name="name"  required placeholder="Seu Nome">
-                <input type="text" name="email" required  placeholder="Seu Email" />
-                <textarea name="message" required placeholder="Digite sua mensagem aqui"></textarea>
-                <input type="hidden" name="accessKey" value="6d082053-c6c8-41bc-9233-3bdab80e6225">
-                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/testes/sucesso.html">
-                <input type="submit" value="Enviar" class="form-buttom">
-            </form>
-          </section>
-          <p class="footer"> Assim que o formulário for enviado a página sera recarregada, não se preocupe não aconteceu erro algum!</p>
+        <div class="formEmail">
+            <section class="form-contato">
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="name"  required placeholder="Seu Nome">
+                    <input type="text" name="email" required  placeholder="Seu Email" />
+                    <textarea name="message" required placeholder="Digite sua mensagem aqui"></textarea>
+                    <input type="hidden" name="accessKey" value="6d082053-c6c8-41bc-9233-3bdab80e6225">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/testes/sucesso.html">
+                    <input type="submit" value="Enviar" class="form-buttom">
+                </form>
+              </section>
+              <p class="footer"> Assim que o formulário for enviado a página sera recarregada, não se preocupe não aconteceu erro algum!</p>
+              <br>
+        </div>
+        
     </main>
 
     <footer>
