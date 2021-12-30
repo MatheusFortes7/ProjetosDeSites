@@ -1,11 +1,14 @@
 @import url(config.css);
 
 
-@media (max-width: 425px){
+@media (max-width: 426px){
     
     header{
         position: fixed;
         width: 100%;
+    }
+    header img {
+        width: 20%;
     }
     
     .inicio{
