@@ -8,6 +8,20 @@
 
 /* FONT NUNITO */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* ScrollBar*/
+body::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: #24252A;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #0088a9;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
