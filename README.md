@@ -18,7 +18,7 @@ Link: https://matheusfortes7.github.io/BlogPessoal/
 
 ## Meu pórtifolio
 Portifólio feito para utilização em currículos. <br>
-Link: Site em progresso...
+Link: Site em produção...
 <br><br>
 # EN-US:
 
